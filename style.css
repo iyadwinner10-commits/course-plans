@@ -1,0 +1,169 @@
+	 body{
+				 font-family: Arial,sans-serif;
+				 margin:0;
+			 }
+			 
+			 *{
+			 padding:0;
+			 box-sizing: border-box;
+			 scroll-behavior: smooth;
+			 }
+			 
+			 
+			 .container {
+    width: 95%;
+    margin: 20px auto;
+    background-color: white;
+    border:1px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+}
+			 .inline {
+			 display: inline;
+			 justify-content: space-between;
+				 background: white;
+				 color:darkblue;
+			 }
+			 .flex{
+				 display: flex;
+				 background: white;
+				 color:darkblue;
+			 }
+			
+			h1 {
+			color: darkblue;
+			}
+			 h2 {
+				 color:black;
+			 }
+			 h3 {
+				 color: darkred; 
+			 }
+			h4 {
+				color:rgb(74, 77, 77);
+			}
+
+						 header {
+	display: flex;
+	flex-wrap: wrap;
+	 justify-content: space-between;
+				
+}
+			footer {
+			display: flex;
+			flex-wrap: wrap;
+				background: gray;
+				color:white;
+				width:95%;
+				height:20px;
+				margin:auto;
+				padding:3px;
+				border-radius:10px;
+				text-align: center;
+				font-size: 10px;
+			}
+  .language-box {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 5px;
+   width: fit-content;
+   padding: 5px;
+   border: 2px solid darkblue;
+   border-radius: 10px;
+   background-color: white;
+  }
+  
+ .language-box a {
+  text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 5px;
+    margin:5px;
+    }
+    
+    .language-box a:hover {
+    background-color: darkblue;
+    color: white;
+       text-align:center;
+    gap:5px;
+    padding:5px auto;
+
+}
+
+.language-box .active {
+    background-color: darkblue;
+    color: white;
+ }
+
+ .box { 
+  text-decoration: none;
+    color: blue;
+  font-size:bold;
+    }
+ .box:hover {
+    color: gold;
+}
+
+ .red {
+ color:red;
+ }
+ .d-g {
+	color:darkgreen
+ }
+  .p-h {
+  color:darkred;
+  font-size: 2em;
+ 
+ }
+ 
+ .footer2 {
+			display: flex;
+			flex-wrap: wrap;
+				background: gray;
+				color:white;
+				width:95%;
+				margin:20px auto;
+				padding:20px;
+				border-radius:10px;
+				font-size: 12px;
+			}
+
+  code {
+    font-family: Consolas, "Courier New", monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    color:dodgerblue;
+	border-left: 0em;
+  }
+  .code1 {
+	    border-color: dimgrey;
+		background-color: #f4f4f4;
+		border-radius: 0rem;
+		padding:10px;
+  }
+
+  .navbar {
+	 display: flex;
+   justify-content:space-between;
+   width: 100%;
+	background-color: white;
+	border:1px solid darkblue;
+	border-radius: 30px;
+	padding:0%;
+  }
+
+  .navbar a {
+	text-decoration: none; 
+	color:darkblue;
+	background-color: white;
+font-size: large;
+border-radius: 30px;
+padding: 20px;
+  }
+  .navbar a:hover {
+	color: white;
+	background-color: darkblue;
+  }
